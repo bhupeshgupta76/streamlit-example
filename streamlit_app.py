@@ -1,14 +1,14 @@
 import streamlit as st
 
 st.write("""
-# Credit Card Approval Prediction App
+# TDS Graded Assignment 8
 
-This app predicts the credit card approval probablity
+App to find sum of two numbers
 """)
 #Get Input
 
-st.header('User Input Parameters')
-number1 = st.number_input("Number1",min_value=0,max_value=20,step=1)
-number2 = st.number_input("Number2",min_value=0,max_value=20,step=1)
+st.header('Enter two numbers')
+number1 = st.number_input("First Number:")
+number2 = st.number_input("Second Number:")
 
-st.write("Sum of two numbers: ", number1, " and ", number2, "is:", number1 + number2)
+st.write("Sum of two given numbers: ", number1, " and ", number2, " is: ", number1 + number2)
